@@ -1,0 +1,245 @@
+/**
+Theme Name: BlogJr Dark
+Theme URI: https://www.sharkthemes.com/downloads/blogjr-dark/
+Author: Shark Themes
+Author URI: https://sharkthemes.com/
+Version: 1.0.0
+Requires PHP: 5.6
+Tested up to: 5.9
+Requires at least: 5.0
+Template: blogjr
+Text Domain: blogjr-dark
+Description: BlogJr Dark is a dark minimal designed, very light weight and easy to use clean and masonry blog theme. This theme is focused on photography and personal blogs. It is a child theme of BlogJr. Theme Demo: https://demo.sharkthemes.com/blogjr-dark/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: translation-ready, custom-header, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, right-sidebar, full-width-template, two-columns, three-columns, grid-layout, custom-logo, blog, photography, portfolio
+
+BlogJr Dark WordPress Theme is child theme of BlogJr WordPress Theme, Copyright 2022 Shark Themes
+BlogJr Dark is distributed under the terms of the GNU General Public License v3 or later
+
+BlogJr WordPress Theme, Copyright 2022 Shark Themes
+BlogJr is distributed under the terms of the GNU General Public License v3 or later
+*/
+
+body {
+	background-color: #000;
+}
+
+a:hover, a:focus, a:active,
+.site-title a:hover,
+.main-navigation a:hover, 
+.main-navigation a:focus,
+span.posted-on a:hover, 
+span.posted-on a:focus, 
+span.byline .author a:hover,
+span.byline .author a:focus,
+.cat-links a:hover,
+.cat-links a:focus,
+#reply-title, 
+.comments-title,
+.custom-header-content h2 a:hover, 
+.custom-header-content h2 a:focus,
+.custom-header-content .cat-links a:hover,
+.custom-header-content .entry-meta a:hover,
+.left-absolute .main-navigation a:hover, 
+.left-absolute .main-navigation a:focus, 
+.main-navigation a:hover, 
+.main-navigation a:focus,
+#secondary .widget ul li a:hover,
+.main-navigation ul.menu li.current-menu-item > a,
+.blog-posts-wrapper.image-focus-dark article.has-post-thumbnail .entry-container .entry-footer a:hover, 
+.blog-posts-wrapper.image-focus-dark article.has-post-thumbnail .entry-container .entry-title a:hover, 
+.blog-posts-wrapper.image-focus-dark article.has-post-thumbnail .entry-container .cat-links a:hover, 
+.blog-posts-wrapper.image-focus-outline-dark article.has-post-thumbnail .entry-container .entry-footer a:hover, 
+.blog-posts-wrapper.image-focus-outline-dark article.has-post-thumbnail .entry-container .entry-title a:hover, 
+.blog-posts-wrapper.image-focus-outline-dark article.has-post-thumbnail .entry-container .cat-links a:hover,
+#featured-posts .section-content article .entry-header .entry-title a:hover, 
+#featured-posts .section-content article .entry-header .entry-title a:focus, 
+article .entry-title a:hover, article .entry-title a:focus,
+.pagination a.page-numbers:hover, 
+.pagination a.page-numbers:focus, 
+.pagination a.page-numbers:hover svg, 
+.pagination a.page-numbers:focus svg,
+.single-post .cat-links a:hover,
+.single-post .cat-links a:focus,
+.single-post .entry-meta span a:hover,
+.single-post .entry-meta span a:focus,
+.single-post span.byline .author a:hover,
+.single-post span.byline .author a:focus {
+	color: #c48f56;
+}
+
+.custom-header-content h2 a,
+.custom-header-content .entry-meta a,
+.custom-header-content a.btn,
+.blog-loader-btn .read-more a,
+#introduction .post-wrapper .entry-container a.btn {
+	color:  #1d1d1d;
+}
+
+#search svg.icon-search {
+	fill: #1d1d1d;
+}
+
+.blog-loader svg,
+.social-menu ul li a svg,
+#featured-posts article .entry-container .entry-meta .posted-on a svg,
+.single-template-wrapper article .posted-on svg, 
+.blog-posts-wrapper article .post-wrapper .entry-header svg,
+.main-navigation svg.icon-search,
+.navigation.pagination svg,
+.main-navigation svg {
+	fill: #fff;
+}
+
+a,
+p,
+h1, h2, h3, h4, h5, h6,
+.cat-links,
+.cat-links a,
+span.byline,
+span.byline .author a,
+span.posted-on a, 
+article .entry-title a,
+.reply a,
+#colophon,
+.widget li,
+.site-info p,
+.site-info a,
+.single-post .cat-links, 
+.single-post .cat-links a,
+.site-description,
+.main-navigation a,
+#secondary .widget-title, 
+#secondary .widgettitle,
+#secondary .widget ul li a,
+.widget_recent_entries span.post-date,
+#respond label,
+.comment-content p,
+.comment-meta .url, 
+.comment-meta .fn,
+span.read-time,
+.post-navigation a, 
+.posts-navigation a,
+.blog-loader-btn .read-more a:hover,
+.blog-loader-btn .read-more a:focus,
+#introduction .post-wrapper .entry-container a.btn:hover,
+#introduction .post-wrapper .entry-container a.btn:focus,
+#filter-posts ul li:not(:first-child):before,
+.single-post .entry-meta span, 
+.single-post .entry-meta span a,
+.single-post span.byline .author a,
+.section-header .section-title, 
+.add-separator .section-title,
+.blog-posts-wrapper article .post-wrapper .entry-container .entry-content p {
+	color: #fff;
+}
+
+.custom-header-content h2 a, 
+.custom-header-content .entry-meta a,
+.custom-header-content .cat-links, 
+.custom-header-content .cat-links a {
+	color: #fff;
+}
+.custom-header-content .entry-meta a:not(:last-child):after {
+	background-color: #fff;
+}
+
+.blog-loader-btn .read-more a,
+#introduction .post-wrapper .entry-container a.btn {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+.site-info,
+#colophon {
+	background-color: #1a1a1a;
+}
+
+.main-navigation a {
+	font-weight: 500;
+}
+
+.custom-header-content-wrapper .overlay {
+	opacity: 0.4;
+}
+
+.site-info a:hover, 
+.site-info a:focus,
+.single-post .entry-meta span.tags-links a,
+#respond input[type="submit"] {
+	border-color: #fff;
+}
+
+.backtotop,
+.backtotop:hover,
+.reply a,
+#respond input[type="submit"]:hover, 
+#respond input[type="submit"]:focus,
+#secondary .widget-title, 
+#secondary .widgettitle,
+.pagination .page-numbers.current,
+.widget_search form.search-form button.search-submit,
+.widget_search form.search-form button.search-submit:hover {
+	background-color: #c48f56;
+}
+
+#respond input[type="submit"]:hover, 
+#respond input[type="submit"]:focus,
+.pagination a.page-numbers:hover, 
+.pagination a.page-numbers:focus, 
+.pagination .page-numbers.current {
+	border-color: #c48f56;
+}
+
+.pagination a.page-numbers:hover svg, 
+.pagination a.page-numbers:focus svg {
+	fill: #c48f56;
+}
+
+.blog-posts-wrapper article.no-post-thumbnail .post-wrapper .entry-container {
+	border-color: rgba( 255,255,255,0.1 );
+}
+
+ @media screen and (min-width: 1024px) {
+ 	#masthead.site-header.sticky-header.nav-shrink {
+ 		background-color: #1d1d1d;
+ 	}
+ 	.main-navigation ul.sub-menu {
+ 		background-color: #c48f56;
+ 	}
+ 	#search.search-open {
+ 		border-color: #c48f56;
+ 	}
+ 	#masthead.left-absolute.sticky-header.nav-shrink .main-navigation ul.nav-menu > li > a,
+	#masthead.left-absolute.sticky-header.nav-shrink .site-description,
+	#masthead.left-absolute.sticky-header.nav-shrink .site-title a {
+		color: #fff;
+	}
+	#masthead.left-absolute.sticky-header.nav-shrink.left-absolute .main-navigation ul.nav-menu > li > a > svg {
+		fill: #fff;
+	}
+	.center-align .main-navigation {
+		background: #000;
+	}
+ }
+ @media screen and (max-width: 1023px) {
+ 	#masthead {
+ 		position: relative;
+ 	}
+
+ 	.main-navigation {
+ 		background-color: #c48f56;
+ 	}
+ 	.main-navigation a:hover, 
+ 	.main-navigation a:focus, 
+ 	.main-navigation ul.menu li.current-menu-item > a {
+ 		color: #c48f56;
+ 	}
+ 	.social-menu ul li a svg {
+ 		fill: #1d1d1d;
+ 	}
+ 	.main-navigation a {
+ 		color: #1d1d1d;
+ 	}
+}

@@ -1,0 +1,57 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-05-07 20:27+0545\n"
+"PO-Revision-Date: 2020-09-30 13:23+0545\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;translate_nooped_plural;number_format_i18n;date_i18n;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:25
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Enable Social Menu in Header"
+msgstr ""
+
+#: functions.php:55
+msgid "Layout"
+msgstr ""
+
+#: functions.php:59
+msgid "Left Align"
+msgstr ""
+
+#: functions.php:60
+msgid "Center Align"
+msgstr ""
+
+#: functions.php:61
+msgid "Image Focus Dark"
+msgstr ""
+
+#: functions.php:66
+msgid "Column"
+msgstr ""
+
+#: functions.php:70
+msgid "Three Column"
+msgstr ""
+
+#: functions.php:71
+msgid "Four Column"
+msgstr ""
+
+#: functions.php:110
+msgid "Menu"
+msgstr ""

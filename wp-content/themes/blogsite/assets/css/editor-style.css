@@ -1,0 +1,5 @@
+/* Block Styles */
+.wp-block-image.is-style-blogsite-border img,
+.wp-block-image.is-style-blogsite-image-frame img {
+  border: 1px solid #e9e9e9;
+}

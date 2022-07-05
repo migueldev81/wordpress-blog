@@ -1,0 +1,239 @@
+/*
+Theme Name: Oceanly News
+Theme URI: https://scriptstown.com/wordpress-themes/oceanly-news/
+Author: ScriptsTown
+Author URI: https://scriptstown.com/
+Description: Oceanly News is a perfect WordPress theme for personal blogs, magazines, and newspapers. The theme offers a modern and elegant design with a refreshing and minimalistic look. The simplicity and quality it provides are very crucial to nicely showcase any content, portfolios, and stories by the content creators, publishers, bloggers, story writers, consultants, vloggers, and freelancers. The theme offers parallax header background image with search form, multiple customization options with multiple page templates and settings and compatibility with RTL languages, WooCommerce, Jetpack infinite scrolling, and Elementor page builder. This multipurpose theme is also perfectly suited for business promotion, consultancy, agency, travel, finance, corporate, affiliate websites, institutions, schools, academy training, e-learning platforms, and online shops. It comes with SEO-optimized breadcrumbs navigation, and accessible multi-level dropdown menu, clean typography, and a mobile-friendly layout design. It also comes with a sidebar, and footer widgets area for placing any blocks including advertisement banners script like Google Adsense, etc. The theme offers a featured posts section that gives a magnificent and eye-catching look. This is great for photography websites, gaming websites, posting product reviews, movies, videos, and educational materials like documentation, tutorials, and guides. This theme is dependency-free, SEO-friendly, and lightweight that can be a great starting point for creating professional, fast, attractive, and powerful websites.
+Template: oceanly
+Version: 1.0.6
+Requires at least: 5.0
+Tested up to: 6.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oceanly-news
+Tags: blog, education, news, grid-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Colors
+# Cards
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #3a3a3a;
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+	font-family: 'Source Serif Pro', 'Cambria', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+a,
+.sticky.post .header-thumbnail-wrap>.svg-icon,
+.entry-header .entry-title a:hover,
+.entry-header .entry-title a:focus,
+.entry-header .entry-title a:active,
+.comment-meta .comment-author .fn a:hover,
+.comment-meta .comment-author .fn a:focus,
+.comment-meta .comment-author .fn a:active,
+.social-navigation a .svg-icon {
+	color: #4b23e1;
+}
+
+.sticky.post.has-post-thumbnail .header-thumbnail-wrap .entry-header::after,
+.sticky.post .header-thumbnail-wrap::after,
+.tag-links a:hover,
+.tag-links a:focus,
+.tag-links a:active,
+.navigation .nav-links .current,
+.navigation .nav-links a:hover,
+.navigation .nav-links a:focus,
+.navigation .nav-links a:active,
+.navigation.post-navigation .nav-links a:hover,
+.navigation.post-navigation .nav-links a:focus,
+.navigation.post-navigation .nav-links a:active,
+.widget-title::after,
+.widget_block h1:first-child::after,
+.widget_block h2:first-child::after,
+.widget_block h3:first-child::after,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.wp-block-tag-cloud a:active,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget .tagcloud a:active,
+.social-navigation a:hover .svg-icon,
+.social-navigation a:focus .svg-icon,
+.social-navigation a:active .svg-icon,
+.back-to-top:hover,
+.back-to-top:focus {
+	background-color: #4b23e1;
+}
+
+.sticky.post .header-thumbnail-wrap,
+.comment-list .comment.bypostauthor>.comment-body,
+.page-title {
+	border-right-color: #4b23e1;
+}
+
+.back-to-top:focus {
+	box-shadow: 0px 0px 5px #4b23e1;
+}
+
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+.ol-cols {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.ol-cols>* {
+	flex: 1 1 100%;
+	display: flex;
+}
+
+.ol-cols-shrink>* {
+	flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.ol-cols>* {
+		flex-basis: calc((100% - 1.5rem) / 2);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.ol-cols>* {
+		flex-basis: calc((100% - 3rem) / 3);
+	}
+
+	.ol-related-posts .ol-cols>* {
+		flex-basis: calc((100% - 1.5rem) / 2);
+	}
+}
+
+.ol-card {
+	flex-grow: 1;
+	display: flex;
+	min-width: 250px;
+	font-size: .85em;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: -1px 2px 16px 0px rgb(0 0 0 / 6%);
+}
+
+.ol-card>.ol-card-img {
+	flex: 0 1 27%;
+	overflow: hidden;
+}
+
+.ol-card>.ol-card-body {
+	flex: 1 1 73%;
+	align-self: center;
+}
+
+.ol-card>.ol-card-img a:hover img {
+	transform: scale(1.1);
+}
+
+.ol-card>.ol-card-img img {
+	display: block;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	transition: .5s;
+}
+
+.ol-card>.ol-card-body {
+	padding: 1rem 1.3rem 1rem .65rem;
+}
+
+.featured-posts-wrap {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.ol-card-title,
+.ol-card-label,
+.ol-card-date {
+	padding: .27em 0;
+}
+
+.ol-card-title,
+.ol-card-label {
+	font-weight: 600;
+}
+
+.ol-card-title a {
+	color: #2e2e2e;
+	transition: .25s color;
+}
+
+.ol-card-title a:hover,
+.ol-card-title a:focus,
+.ol-card-title a:active {
+	color: #4b23e1
+}
+
+.ol-card-date {
+	font-size: .9em;
+	color: #a1a1a1;
+}
+
+.ol-card-title {
+	position: relative;
+	word-break: break-word;
+}
+
+.ol-card-title a::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	border-bottom: 2px solid #4b23e1;
+	width: 0%;
+	transition: .5s;
+}
+
+.ol-card-body:hover .ol-card-title a::after {
+	width: 35%;
+}
+
+.ol-related-posts {
+	margin-bottom: 2em;
+}
+
+.ol-related-posts-title {
+	margin-top: 0;
+	margin-bottom: .5em;
+	padding: 10px 14px;
+	border: 1px solid #efefef;
+	font-size: 1.35em;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: -1px 2px 16px 0px rgba(0, 0, 0, .08);
+}

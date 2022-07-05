@@ -1,0 +1,246 @@
+/*
+Theme Name: NewsCover
+Theme URI: https://afthemes.com/products/newscover/
+Author: AF Themes
+Author URI: https://afthemes.com
+Requires PHP: 5.6
+Tested up to: 5.9
+Description: NewsCover is a dark-style child theme of CoverNews. The widgetized theme comes with starter demo import. It has different header and banner design as well as some significant fonts and color configuration adjustments. In addition, the design also modified some of the default nature of the front page layout.  You can implement layouts as a contemporary news and magazine sites, clean and minimal blogging site, a vintage and retro fashion blog, a photography blog, a wedding blog & magazine and more with the help of the available customizer options. The theme is SEO friendly with optimized code and awesome support.
+See Demo: https://demo.afthemes.com/covernews/newscover/
+Template: covernews
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: newscover
+Tags: news, blog, entertainment, one-column, two-columns, grid-layout, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, sticky-post, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Newsleader WordPress Theme, Copyright 2021 AF themes
+Newsleader is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li > a.active:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover{
+        background: #00a3dd;
+}
+
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+        color: #00a3dd;
+}
+
+body #loader:after {
+  border-left-color: #00a3dd;
+}
+
+.secondary-color,
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.site-content .search-form .search-submit,
+.site-footer .search-form .search-submit,
+.tagcloud a:hover,
+.tagcloud a:hover {
+    background: #00a3dd;
+    color: #fff;
+}
+
+
+
+body .secondary-color,
+body button,
+body input[type="button"],
+body input[type="reset"],
+body input[type="submit"],
+body .site-content .search-form .search-submit,
+body .site-footer .search-form .search-submit,
+body .em-post-format i,
+body span.header-after:after,
+body #secondary .widget-title span:after,
+body .af-tabs.nav-tabs > li > a.active:after,
+body .af-tabs.nav-tabs > li > a:hover:after,
+body .exclusive-posts .exclusive-now,
+body span.trending-no,
+body .tagcloud a:hover{
+    background: #00a3dd;
+}
+
+
+body.dark .latest-posts-full .header-details-wrapper .entry-title a:hover,
+body.dark .entry-title a:visited:hover,
+body.dark .entry-title a:hover,
+body.dark h3.article-title.article-title-1 a:visited:hover,
+body.dark h3.article-title.article-title-1 a:hover,
+body.dark .trending-posts-carousel h3.article-title a:visited:hover,
+body.dark .trending-posts-carousel h3.article-title a:hover,
+body.dark .exclusive-slides a:visited:hover,
+body.dark .exclusive-slides a:hover,
+body.dark .article-title.article-title-1 a:visited:hover,
+body.dark .article-title.article-title-1 a:hover,
+body.dark .article-title a:visited:hover,
+body.dark .article-title a:hover,
+#wp-calendar caption,
+#wp-calendar td#today,
+.entry-title a:visited:hover,
+.entry-title a:hover,
+h3.article-title.article-title-1 a:visited:hover,
+h3.article-title.article-title-1 a:hover,
+.trending-posts-carousel h3.article-title a:visited:hover,
+.trending-posts-carousel h3.article-title a:hover,
+.exclusive-slides a:visited:hover,
+.exclusive-slides a:hover,
+.article-title.article-title-1 a:visited:hover,
+.article-title.article-title-1 a:hover,
+.article-title a:visited:hover,
+.article-title a:hover,
+body a:hover,
+body a:focus,
+body a:active,
+body .figure-categories-2 .cat-links a
+{
+    color: #00a3dd;
+}
+
+
+body #loader:after {
+
+    border-left-color: #00a3dd;
+}
+
+
+body .figure-categories .cat-links a.covernews-categories,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-1,
+body span.header-after.category-color-1:after {
+    background-color: #fcd215;
+    color: #212121;
+
+}
+
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories,
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories,
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories,
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories,
+.trending-story .figure-categories .cat-links a.covernews-categories{
+    color: #fcd215;
+}
+
+/*fcd215*/
+
+body .figure-categories .cat-links a.category-color-2,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-2,
+body span.header-after.category-color-2:after {
+    background-color: #00a3dd;
+    color: #ffffff;
+
+}
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-2,
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2,
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-2,
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-2,
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-2{
+    color: #00a3dd;
+}
+
+body .figure-categories .cat-links a.category-color-3,
+body .full-plus-list .spotlight-post:first-of-type .figure-categories .cat-links a.covernews-categories.category-color-3,
+body span.header-after.category-color-3:after{
+    background-color: #d32531;
+    color: #ffffff;
+}
+
+.trending-story .figure-categories .cat-links a.covernews-categories.category-color-3,
+.list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3,
+.full-plus-list .spotlight-post .figure-categories .cat-links a.covernews-categories.category-color-3,
+.covernews_tabbed_posts_widget .figure-categories .cat-links a.covernews-categories.category-color-3,
+.trending-posts-vertical-carousel .figure-categories .cat-links a.covernews-categories.category-color-3{
+    color: #d32531;
+}
+
+
+body .top-masthead {
+    background: #111111;
+}
+
+body .main-navigation{
+    background-color: #fcd215;
+}
+
+body span.menu-description {
+    background: #00a3dd;
+}
+
+
+body .header-layout-2 .site-header .main-navigation.aft-sticky-navigation .site-branding .site-title a,
+body .main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title a,
+body .main-navigation .menu ul.menu-desktop > li > a:visited,
+body .main-navigation .menu ul.menu-desktop > li > a .fa-angle-down,
+body .main-navigation .menu ul.menu-desktop > li > a,
+body .main-navigation .menu ul.menu-mobile > li > a:visited,
+body .main-navigation .menu ul.menu-mobile > li > a .fa-angle-down,
+body .main-navigation .menu ul.menu-mobile > li > a,
+body .search-icon,
+body .search-icon:visited,
+body .search-icon:hover,
+body .search-icon:focus,
+body .search-icon:active,
+body.dark .header-layout-2 .site-header .main-navigation.aft-sticky-navigation .site-branding .site-title a,
+body.dark .main-navigation.aft-sticky-navigation span.af-mobile-site-title-wrap .site-title a,
+body.dark .main-navigation .menu ul.menu-desktop > li > a:visited,
+body.dark .main-navigation .menu ul.menu-desktop > li > a .fa-angle-down,
+body.dark .main-navigation .menu ul.menu-desktop > li > a,
+body.dark .main-navigation .menu ul.menu-mobile > li > a:visited,
+body.dark .main-navigation .menu ul.menu-mobile > li > a .fa-angle-down,
+body.dark .main-navigation .menu ul.menu-mobile > li > a,
+body.dark .search-icon,
+body.dark .search-icon:visited,
+body.dark .search-icon:hover,
+body.dark .search-icon:focus,
+body.dark .search-icon:active
+{
+    color: #212121;
+}
+
+body .search-overlay.reveal-search .search-icon i.fa.fa-search:before,
+body .search-overlay.reveal-search .search-icon i.fa.fa-search:after,
+body .ham,
+body .ham:before,
+body .ham:after,
+body .main-navigation ul>li>a:after
+{
+    background-color: #212121;
+}
+@media only screen and (max-width: 991px) {
+    .navigation-container ul li a{
+        color: #212121;
+    }
+    .main-navigation .menu .menu-mobile li a button:before,
+    .main-navigation .menu .menu-mobile li a button:after{
+        background-color: #212121;
+    }
+
+    .main-navigation .toggle-menu a:focus {
+        outline: 1px dotted #000000;
+        outline-offset: -5px;
+    }
+
+    .main-navigation .menu .menu-mobile li a button:focus-within {
+        outline: 1px dotted #000000;
+    }
+}
