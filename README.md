@@ -1,5 +1,5 @@
 # WORDPRESS | Blog
 ## Technologies 
 * WordPress
-# Screen
-![1](./resources/1.png)
+# Screens
+![Screen 1](./resources/1.png)
